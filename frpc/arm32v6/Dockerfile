@@ -7,6 +7,8 @@ VOLUME [ "/sys/fs/cgroup" ]
 # COPY qemu-arm-static /usr/bin
 COPY . /test
 
+RUN ls /test
+
 RUN apk add --no-cache openrc \
     && cd /root \
     &&  wget -c https://github.com/fatedier/frp/releases/download/v${FRP_VERSION}/frp_${FRP_VERSION}_linux_arm.tar.gz \
