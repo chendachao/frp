@@ -1,24 +1,24 @@
 image: chendachao/frpc:0.28.2
 manifests:
-  - image: chendachao/frpc:amd64-0.28.2
+  - image: chendachao/frpc-amd64:0.28.2
     platform:
       architecture: amd64
       os: linux
-  - image: chendachao/frpc:i386-0.28.2
+  - image: chendachao/frpc-i386:0.28.2
     platform:
       architecture: 386
       os: linux
-  - image: chendachao/frpc:arm32v6-0.28.2
+  - image: chendachao/frpc-arm32v6:0.28.2
     platform:
       architecture: arm
       os: linux
       variant: v6
-  - image: chendachao/frpc:arm32v7-0.28.2
+  - image: chendachao/frpc-arm32v7:0.28.2
     platform:
       architecture: arm
       os: linux
       variant: v7
-  - image: chendachao/frpc:arm64v8-0.28.2
+  - image: chendachao/frpc-arm64v8:0.28.2
     platform:
       architecture: arm64
       os: linux

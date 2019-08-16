@@ -1,24 +1,24 @@
 image: chendachao/frps:latest
 manifests:
-  - image: chendachao/frps:amd64-latest
+  - image: chendachao/frps-amd64:latest
     platform:
       architecture: amd64
       os: linux
-  - image: chendachao/frps:i386-latest
+  - image: chendachao/frps-i386:latest
     platform:
       architecture: 386
       os: linux
-  - image: chendachao/frps:arm32v6-latest
+  - image: chendachao/frps-arm32v6:latest
     platform:
       architecture: arm
       os: linux
       variant: v6
-  - image: chendachao/frps:arm32v7-latest
+  - image: chendachao/frps-arm32v7:latest
     platform:
       architecture: arm
       os: linux
       variant: v7
-  - image: chendachao/frps:arm64v8-latest
+  - image: chendachao/frps-arm64v8:latest
     platform:
       architecture: arm64
       os: linux
